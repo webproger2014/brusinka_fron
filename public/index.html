@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+<link rel="stylesheet" href="<%= BASE_URL %>fonts.min.css">
+<link rel="stylesheet" href="<%= BASE_URL %>fontello.css">
+<link rel="stylesheet" href="https://msk.vevanta.com/wp-content/themes/agentstvo/public/css/main.min.css">
+<link rel="stylesheet" href="https://msk.vevanta.com/wp-content/themes/agentstvo/public/css/uikit/uikit.min.css">
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+  </head>
+  <body class="">
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+
+    <modal-success ref="modalSuccess"></modal-success>
+    <Modal-Default ref="modalDefault"></Modal-Default>
+      <button-modal></button-modal>
+
+
+      <div class="uk-container">
+        <div class="title">
+          Линейка проектов каркасных домов «Христофор Колумб»
+        </div>
+        <projects-id :filter="{ids: [515, 518, 517, 527, 516, 514]}"></projects-id>
+        <div class="title">
+          Линейка проектов каркасных домов «Брусинка»
+        </div>
+        <projects-id :filter="{ids: [522, 523, 525, 524, 526, 528]}"></projects-id>
+        <div class="title">
+          Линейка проектов в стиле Барнхаус
+        </div>
+        <projects-id :filter="{ids: [363, 352, 351, 328, 208, 103]}"></projects-id>
+      </div>
+
+
+    </div>
+  </body>
+</html>

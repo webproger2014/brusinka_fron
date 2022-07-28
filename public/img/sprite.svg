@@ -1,0 +1,18 @@
+<!-- Embeded svg sprite reference -->
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="house-line" viewBox="0 0 1024 1024">
+<path ng-repeat="path in glyph.paths" class="path0" mi-d="M651.264 984.064h280.576v-509.952l-408.576-434.176-433.152 434.176v509.952h306.176v-331.776c0 0 0-128 128-128s128 128 128 128v128" mi-fill="none" mi-stroke="inherit" mi-stroke-width="71.68" mi-stroke-linecap="round" mi-stroke-linejoin="round" mi-stroke-miterlimit="10" mi-opacity="1" d="M651.264 984.064h280.576v-509.952l-408.576-434.176-433.152 434.176v509.952h306.176v-331.776c0 0 0-128 128-128s128 128 128 128v128" fill="none" stroke="inherit" stroke-width="71.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" opacity="1"></path>
+</symbol>
+  <symbol id="smile-line" viewBox="0 0 1024 1024">
+    <style type="text/css">.st0{fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}</style>
+    <path class="st0" d="M49.5,6C74.1,6,94,25.9,94,50.5S74.1,95,49.5,95S5,75.1,5,50.5c0-17.2,9.8-32.2,24.1-39.6  c0,0,6.3,18.5,29.8,18.5"/>
+    <path class="st0" d="m35.4 66.9s11.7 14.1 25.8 0"/>
+    <rect x="21.4" y="41.1" width="9.4" height="9.4"/>
+    <rect x="64.7" y="42.3" width="9.4" height="9.4"/>
+  </symbol>
+  <symbol id="search-line" viewBox="0 0 1024 1024">
+<path ng-repeat="path in glyph.paths" class="path0" mi-d="M920.576 518.144c55.296-78.848 68.608-184.32 26.624-278.528-63.488-143.36-231.424-206.848-373.76-143.36s-207.872 231.424-144.384 373.76 231.424 206.848 373.76 143.36l146.432 276.48" mi-fill="none" mi-stroke="inherit" mi-stroke-width="81.92" mi-stroke-linecap="round" mi-stroke-linejoin="round" mi-stroke-miterlimit="10" mi-opacity="1" d="M920.576 518.144c55.296-78.848 68.608-184.32 26.624-278.528-63.488-143.36-231.424-206.848-373.76-143.36s-207.872 231.424-144.384 373.76 231.424 206.848 373.76 143.36l146.432 276.48" fill="none" stroke="inherit" stroke-width="81.92" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" opacity="1"></path><!-- end ngRepeat: path in glyph.paths --><path ng-repeat="path in glyph.paths" class="path1" mi-d="M46.080 378.88h159.744" mi-fill="none" mi-stroke="inherit" mi-stroke-width="81.92" mi-stroke-linecap="round" mi-stroke-linejoin="round" mi-stroke-miterlimit="10" mi-opacity="1" d="M46.080 378.88h159.744" fill="none" stroke="inherit" stroke-width="81.92" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" opacity="1"></path><!-- end ngRepeat: path in glyph.paths --><path ng-repeat="path in glyph.paths" class="path2" mi-d="M46.080 584.704h205.824" mi-fill="none" mi-stroke="inherit" mi-stroke-width="81.92" mi-stroke-linecap="round" mi-stroke-linejoin="round" mi-stroke-miterlimit="10" mi-opacity="1" d="M46.080 584.704h205.824" fill="none" stroke="inherit" stroke-width="81.92" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" opacity="1"></path><!-- end ngRepeat: path in glyph.paths --><path ng-repeat="path in glyph.paths" class="path3" mi-d="M46.080 789.504h410.624" mi-fill="none" mi-stroke="inherit" mi-stroke-width="81.92" mi-stroke-linecap="round" mi-stroke-linejoin="round" mi-stroke-miterlimit="10" mi-opacity="1" d="M46.080 789.504h410.624" fill="none" stroke="inherit" stroke-width="81.92" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" opacity="1"></path><!-- end ngRepeat: path in glyph.paths -->
+
+  </symbol>
+
+</svg>

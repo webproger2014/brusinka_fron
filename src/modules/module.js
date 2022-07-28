@@ -1,0 +1,18 @@
+export default {
+  'Calc': () => import('./Calc/Calc'),
+  'CalcHouse': () => import('./CalcHouse/CalcHouse'),
+  'Galery': () => import('./Gallery/Galery'),
+  'Gallery': () => import('./Gallery/Gallery'),
+  'ProjectListFilter': () => import('./Project/ProjectListFilter'),
+  'Projects': () => import('./Project/Projects'),
+  'ProjectsId': () => import('./Project/ProjectsId'),
+  'ProjectList': () => import('./Project/ProjectList'),
+  'ProjectsListSort': () => import('./Project/ProjectsListSort'),
+  'ProjectCounts': () => import('./Project/ProjectCounts'),
+  'QuizProject': () => import('./QuizProject/QuizProject'),
+  'Complectation': () => import('./Complectation/Complectation'),
+  'Cart': () => import('./Cart/Cart'),
+  'CalcDetails': () => import('./CalcDetails/CalcDetails'),
+  'ConsultationTwo': () => import('./Form/ConsultationTwo'),
+  'Youtube': () => import('./Youtube/video'),
+}
